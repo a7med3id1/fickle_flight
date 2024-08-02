@@ -1,0 +1,41 @@
+name: fickle_flight
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_native_splash: ^2.4.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: images/Splash Screen.png
+  android_gravity: fill
+
+  
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - images/Paris card1.png
+    - images/boracay.png
+    
+
+    
+ 
